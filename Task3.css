@@ -1,0 +1,133 @@
+body{
+  background: #081b29;
+  color: white;
+}
+section {
+    float: bottom;
+}
+
+html {
+    background-color: "#fafbff";
+    scroll-behavior: smooth;
+}
+.nav{
+  background: transparent;
+}
+.nav:hover{
+  color: red;
+  box-shadow: 0 0 40px red;
+  background: transparent;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 25%;
+    border: none;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: greenyellow;
+    box-shadow: 0 0 40px greenyellow;
+}
+
+#resume h1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p,H1{
+  color: black;
+}
+#text{
+  color: white;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+ }
+ .contact-text h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+ }
+ .contact-text h2 span{
+    color: rgb(255, 0, 0);
+ }
+ .contact-list{
+   margin-bottom: 3rem;
+ }
+ .contact-text li{
+   margin-bottom: 10px;
+   display: block;
+ }
+ .contact-text i{
+   display: inline-block;
+   color: #0ef;
+   font-size: 20px;
+   font-weight: 600;
+   transition: all .40s ease ;
+ }
+ .contact-form form{
+    position: relative;
+ }
+ .contact-form form input,form textarea{
+   border: none;
+   outline: none;
+   width: 90%;
+   padding: 18px;
+   background: #fefefe;
+   color: #000;
+   font-size: 1rem;
+   font-weight: 600;
+   margin-bottom: 0.5rem;
+   border-radius: 0.5rem;
+ }
+ .contact-form textarea{
+   resize: none;
+   height: 200px;
+ }
+ .contact-form form .send{
+   display: inline-block;
+   padding: 14px 60px;
+   background: rgb(255, 30, 0);
+   border-radius: 40px;
+   font-size: 16px;
+   color: #081b29;
+   letter-spacing: 1px;
+   text-decoration: none;
+   font-weight: 800;
+   opacity: 5;
+   animation: slideTop 1s ease forwards;
+   animation-delay: 2s;
+   width:95%;
+  
+ 
+ }
+ .contact-form form .send:hover{
+    background-color: greenyellow;
+    box-shadow: 0 0 40px greenyellow;
+ }
+ .h{
+   font-size: 30px;
+   color: white;
+ }
+ @media only screen and (max-width: 500px) {
+  body {
+      background-color: #081b29;
+  }
+  
+}
